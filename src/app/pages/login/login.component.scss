@@ -1,0 +1,19 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login_modal{
+    border-radius: 20px;
+    height: 60vh;
+    width: 30%;
+    margin-right: 5%;
+    box-shadow: 0 0 4px rgb(172, 172, 172);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

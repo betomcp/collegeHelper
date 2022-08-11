@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'collegeHelper';
+  public showLoginPage: boolean = true;
+
+  public hideLoginPage(event: any){
+    if(event){
+      this.showLoginPage = false;
+    }
+  }
 }
